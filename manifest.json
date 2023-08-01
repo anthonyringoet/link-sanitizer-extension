@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Link Sanitizer",
+  "description": "This extension removes tracking parameters from URLs (UTM,...)",
+  "version": "1.0",
+  "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>",
+      "storage"
+  ],
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}

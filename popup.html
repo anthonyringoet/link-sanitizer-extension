@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        line-height: 1.5;
+        font-size: 0.9em;
+        padding: 1em;
+        margin: 0;
+        min-width: 200px;
+      }
+      .h-1, .h-2{
+        line-height: 1.1;
+        padding: 0;
+        margin: 0 0 0.5em;
+      }
+      .h-1{
+        font-size: 1.2em;
+        margin: 0 0 0.7em;
+      }
+      .h-2{
+        font-size: 1.1em;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        padding: 0;
+        margin: 0 0 0.2em;
+      }
+      details{
+        display: block;
+        margin: 0 0 0.8em;
+      }
+    </style>
+  </head>
+    <body>
+        <h2 class="h-2">Total URLs sanitized</h2>
+        <p id="cleaned_urls_count">Loading...</p>
+
+        <details>
+          <summary>Removed Parameter details</summary>
+          <ul>
+            <li id="utm_source">Loading...</li>
+            <li id="utm_medium">Loading...</li>
+            <li id="utm_campaign">Loading...</li>
+            <li id="utm_term">Loading...</li>
+            <li id="utm_content">Loading...</li>
+            <li id="fbclid">Loading...</li>
+            <li id="gclid">Loading...</li>
+            <li id="_hsenc">Loading...</li>
+            <li id="mc_cid">Loading...</li>
+            <li id="mc_eid">Loading...</li>
+            <li id="igshid">Loading...</li>
+          </ul>
+        </details>
+
+        <div class="actions">
+          <button id="resetButton">Reset Statistics</button>
+        </div>
+
+        <script src="popup.js"></script>
+    </body>
+</html>
