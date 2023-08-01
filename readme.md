@@ -5,6 +5,8 @@ There are lots of similar extensions but this one I can most certainly trust. I 
 
 > If you encounter any issues or have suggestions for improvements, feel free to open an issue or a pull request.
 
+<img width="263" alt="image" src="https://github.com/anthonyringoet/link-sanitizer-extension/assets/576905/ea170742-4cb8-4daf-8279-c0424ea923db">
+
 ## Testing
 
 This extension doesn't require a traditional "build" step, as it's composed of raw JavaScript that both Chrome and Firefox can run directly. To test it, you'll want to load the extension in your browser and navigate to various websites.
