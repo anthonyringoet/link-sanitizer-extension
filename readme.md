@@ -7,6 +7,10 @@ There are lots of similar extensions but this one I can most certainly trust. I 
 
 <img width="263" alt="image" src="https://github.com/anthonyringoet/link-sanitizer-extension/assets/576905/ea170742-4cb8-4daf-8279-c0424ea923db">
 
+## Installing
+
+Find this extension in the Firefox Addons Store: [Firefox Link Sanitizer Add On](https://addons.mozilla.org/en-US/firefox/addon/link-sanitizer/)
+
 ## Testing
 
 This extension doesn't require a traditional "build" step, as it's composed of raw JavaScript that both Chrome and Firefox can run directly. To test it, you'll want to load the extension in your browser and navigate to various websites.
